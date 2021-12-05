@@ -1,0 +1,28 @@
+.ptitle {
+  z-index: 3;
+  position: absolute;
+  text-align: center;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: white; /*文字色*/
+}
+
+.smallblok {
+  position: relative;
+  width: 100%;
+
+  img {
+    z-index: 2;
+
+  }
+}
+
+.product{
+  text-align: center;
+}
+
+

@@ -1,0 +1,16 @@
+.top {
+  height: 100vh;
+  color: aliceblue;
+  text-shadow: 1px 2px 3px black;
+  text-align: left;
+  font-size: 6rem;
+  line-height: 1.1;
+  background-image: url(../image/mtopimg.jpg);
+
+  @media screen and (min-width: 480px) {
+    /*　画面サイズが480pxからはここを読み込む　*/
+    background-image: url(../image/topimg.jpg);
+    font-size: 10rem;
+  }
+  background-size: cover;
+}
