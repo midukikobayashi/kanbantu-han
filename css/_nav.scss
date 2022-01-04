@@ -1,0 +1,58 @@
+.steptitle {
+  padding-left: 1.5rem;
+  font-size: 2rem;
+  margin-top: 2rem;
+  //background-color: hotpink;
+  color: gray;
+}
+.text11 {
+  font-size: 0.8rem;
+  padding-bottom: 0;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.text2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+.minbox {
+  //background-color: khaki;
+
+  padding-bottom: 2rem;
+  border: solid 0.5px coral;
+}
+.text3 {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 2em;
+}
+.illust {
+  text-align: center;
+  margin-top: 3rem;
+  img {
+    height: 20vh;
+  }
+}
+
+.stepblock {
+  @media screen and (min-width: 745px) {
+    .minbox {
+      //background-color: green;
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
+    .text11 {
+      padding-left: 30vh;
+      padding-right: 30vh;
+      font-size: 1rem;
+    }
+    .steptitle {
+      padding-left: 5rem;
+      
+    }
+  }
+}

@@ -1,18 +1,26 @@
 .sblok {
-  flex: auto;
+  //flex: auto;
   border: 1px solid;
   border-color: darkgoldenrod;
   margin-bottom: 3rem;
   padding: 1rem;
   box-shadow: 8px 5px 20px rgba(184, 135, 11, 0.336);
   text-align: center;
-
- 
 }
 
-.stitle{
+.stitle {
   text-align: center;
   font-size: 1rem;
   margin: 1rem;
 }
 
+@media screen and (min-width: 800px) {
+  .sbox{
+    display: flex;
+    
+  }
+  .sblok {
+margin: 1rem;
+  }
+
+}

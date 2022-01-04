@@ -8,5 +8,24 @@
 }
 .cmain{
   font-size: 1.5rem;
+  color: black;
+ 
 
 }
+.cimg {
+  text-align: center;
+}
+
+@media screen and (min-width: 440px) {
+  .ctext {
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+
+  }
+}
+

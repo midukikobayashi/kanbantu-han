@@ -1,16 +1,52 @@
 .top {
-  height: 100vh;
-  color: aliceblue;
-  text-shadow: 1px 2px 3px black;
-  text-align: left;
-  font-size: 6rem;
-  line-height: 1.1;
-  background-image: url(../image/mtopimg.jpg);
+  background: url(../image/top.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  z-index: 70;
+  position: relative;
 
-  @media screen and (min-width: 480px) {
-    /*　画面サイズが480pxからはここを読み込む　*/
-    background-image: url(../image/topimg.jpg);
-    font-size: 10rem;
+  width: 100vw;
+  height: 100vh;
+  .toptext {
+    color: whitesmoke;
+    text-shadow: 1px 2px 3px black;
+    text-align: right;
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-top: 50vh;
+    padding-right: 3rem;
   }
-  background-size: cover;
+  .title {
+    font-size: 4rem;
+    //margin-top: 10vh;
+    padding-left: 3rem;
+    color: whitesmoke;
+    //background-color: yellow;
+    height: 20vh;
+    text-align: left;
+    padding-top: 20vh;
+    text-shadow: 1px 2px 3px black;
+  }
+}
+
+.top {
+  @media screen and (max-width: 590px) {
+    background: url(../image/mtop.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    z-index: 70;
+    .toptext {
+      font-size: 2.5rem;
+      padding-bottom: 0;
+      text-align: center;
+    }
+    .title {
+      font-size: 3rem;
+      padding-top: 20%;
+      //background-color: rgba(255, 255, 0, 0.288);
+      text-align: center;
+    }
+  }
 }
