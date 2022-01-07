@@ -11,18 +11,17 @@ img {
 h2 {
   text-align: center;
   color: sienna;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 3.5rem;
+  @media screen and (min-width: 440px) {
+    font-size: 2rem;
+  }
 }
 .text {
   color: black;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 
   margin: 0.5rem;
-}
-
-main {
-  margin: 2rem;
 }
 
 button {
@@ -32,7 +31,7 @@ button {
 }
 
 body {
-  font-family: 'Kaisei HarunoUmi', serif;
+  font-family: "Kaisei HarunoUmi", serif;
 }
 
 @media screen and (min-width: 440px) {
@@ -42,4 +41,33 @@ body {
     text-align: center;
     margin: 0.5rem;
   }
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  position: absolute;
+  color: aliceblue;
+  font-weight: 200;
+
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+.s-top {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  //background-color: sandybrown;
+  img {
+    width: 100vw;
+  }
+}
+.sign {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.front {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }

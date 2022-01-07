@@ -15,18 +15,20 @@ img {
 h2 {
   text-align: center;
   color: sienna;
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 3.5rem;
+}
+
+@media screen and (min-width: 440px) {
+  h2 {
+    font-size: 2rem;
+  }
 }
 
 .text {
   color: black;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin: 0.5rem;
-}
-
-main {
-  margin: 2rem;
 }
 
 button {
@@ -36,7 +38,7 @@ button {
 }
 
 body {
-  font-family: 'Kaisei HarunoUmi', serif;
+  font-family: "Kaisei HarunoUmi", serif;
 }
 
 @media screen and (min-width: 440px) {
@@ -48,8 +50,41 @@ body {
   }
 }
 
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  position: absolute;
+  color: aliceblue;
+  font-weight: 200;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.s-top {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+
+.s-top img {
+  width: 100vw;
+}
+
+.sign {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.front {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 footer {
-  background-color: #bbdddd;
+  background-color: #DEDDD9;
   color: white;
   z-index: 90;
   position: relative;
@@ -276,8 +311,14 @@ footer {
 }
 
 .cmain {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: black;
+}
+
+@media screen and (min-width: 440px) {
+  .cmain {
+    font-size: 1.3rem;
+  }
 }
 
 .cimg {
@@ -384,14 +425,14 @@ footer {
   border-color: darkgoldenrod;
   margin-bottom: 3rem;
   padding: 1rem;
-  -webkit-box-shadow: 8px 5px 20px rgba(184, 135, 11, 0.336);
-          box-shadow: 8px 5px 20px rgba(184, 135, 11, 0.336);
+  -webkit-box-shadow: 8px 5px 20px gray;
+          box-shadow: 8px 5px 20px gray;
   text-align: center;
 }
 
 .stitle {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: 1rem;
 }
 
@@ -400,9 +441,99 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .sblok {
     margin: 1rem;
+    width: 25%;
+  }
+}
+
+.button03 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding: 1em 2em;
+  color: white;
+  font-size: 18px;
+  border: 1px solid gray;
+  background-color: gray;
+  text-decoration: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button03 a::after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.button03 a:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: white;
+}
+
+.button03 a:hover::after {
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333;
+}
+
+.ink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+}
+
+.ink .spase {
+  width: 5rem;
+  height: 4px;
+}
+
+.ink img {
+  width: 25vw;
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+  padding-bottom: 0.4rem;
+}
+
+@media screen and (min-width: 800px) {
+  .ink {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+  }
+  .ink .spase {
+    width: 10rem;
+    height: 4px;
+  }
+  .ink img {
+    width: 19vw;
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+    padding-bottom: 0.4rem;
   }
 }
 
@@ -470,9 +601,9 @@ footer {
   color: white;
   font-size: 1rem;
   text-align: center;
-  background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
-  -webkit-transition: .4s;
-  transition: .4s;
+  background-image: linear-gradient(45deg, #ffc107 0%, #ff8b5f 100%);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   border-radius: 50vh;
   text-decoration: none;
 }
@@ -692,5 +823,41 @@ footer {
     -webkit-transition: 0.5s;
     transition: 0.5s;
   }
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+.seat-title {
+  font-size: 1.2rem;
+  text-align: center;
+  color: chocolate;
+}
+
+.seat-text {
+  font-size: 0.9rem;
+  margin: 1rem;
+}
+
+@media screen and (min-width: 480px) {
+  .seat-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.safter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+}
+
+.safter img {
+  width: 40vw;
 }
 /*# sourceMappingURL=style.css.map */

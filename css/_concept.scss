@@ -7,8 +7,11 @@
   
 }
 .cmain{
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: black;
+  @media screen and (min-width: 440px) {
+    font-size: 1.3rem;
+  }
  
 
 }
