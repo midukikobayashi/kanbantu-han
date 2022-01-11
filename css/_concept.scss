@@ -8,8 +8,10 @@
 .cmain {
   font-size: 1.8rem;
   color: black;
+  text-align: center;
+
   @media screen and (min-width: 440px) {
-    font-size: 1.3rem;
+    font-size: 2.5rem;
   }
 }
 .cimg {
@@ -21,9 +23,13 @@
     color: black;
     font-size: 1rem;
     text-align: center;
-    margin: 0.5rem;
+    //margin: 0.5rem;
     //margin-left: 5rem;
     //margin-right: 5rem;
     //margin-bottom: 5rem;
   }
+}
+.concept {
+  //justify-content: center;
+  //text-align: center;
 }

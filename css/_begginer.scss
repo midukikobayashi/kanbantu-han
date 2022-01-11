@@ -46,10 +46,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  //margin-left: 2rem;
+  padding-left: vw;
+  //text-align: center;
+  
   @media (min-width: 768px) {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    //margin-left: 10rem;
+    //margin-right: 10rem;
+    margin-left: 10vw;
   }
 }
 
@@ -97,8 +100,9 @@
 }
 .a-menu {
   @media (min-width: 768px) {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    width: 70vw;
+    //margin-left: 10rem;
+    //margin-right: 10rem;
   }
   //margin: 0 9rem 0 9rem;
 }
@@ -117,16 +121,21 @@
   }
 }
 @media (min-width: 768px) {
-  
+  .b-last {
+    //display: flex;
+    //justify-content: center;
+    //text-align: center;
+    padding-left: 20vw;
+  }
   .b-all {
     
     .illust {
-      padding: 0%;
-      margin-bottom: 0%;
+      //padding: 0%;
+      //margin-bottom: 0%;
       //text-align: center;
       img {
-        width: 20vw;
-        height: auto;
+        //width: 20vw;
+        //height: auto;
         //text-align: center;
       }
     }

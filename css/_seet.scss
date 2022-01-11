@@ -50,13 +50,14 @@ h3 {
     //position: relative;
   }
   .ctext {
-    padding: 5rem;
+    padding: 1rem;
   }
 }
 
 .safter {
-  display: flex;
+  //display: flex;
   margin-top: 3rem;
+  text-align: center;
   img {
     height: 10rem;
     @media screen and (min-width: 480px) {

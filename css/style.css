@@ -304,8 +304,7 @@ footer {
     margin-right: 10rem;
   }
   .stepblock .text11 {
-    padding-left: 30vh;
-    padding-right: 30vh;
+    padding-left: 20vh;
     font-size: 1rem;
   }
   .stepblock .steptitle {
@@ -323,11 +322,12 @@ footer {
 .cmain {
   font-size: 1.8rem;
   color: black;
+  text-align: center;
 }
 
 @media screen and (min-width: 440px) {
   .cmain {
-    font-size: 1.3rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -340,7 +340,6 @@ footer {
     color: black;
     font-size: 1rem;
     text-align: center;
-    margin: 0.5rem;
   }
 }
 
@@ -451,6 +450,9 @@ footer {
     width: 100%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .sblok {
     margin: 1rem;
@@ -623,7 +625,7 @@ footer {
 }
 
 .button02 {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   margin-bottom: 3rem;
   text-align: center;
 }
@@ -889,15 +891,13 @@ h3 {
     padding-top: 3rem;
   }
   .ctext {
-    padding: 5rem;
+    padding: 1rem;
   }
 }
 
 .safter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-top: 3rem;
+  text-align: center;
 }
 
 .safter img {
@@ -971,12 +971,12 @@ h3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-left: vw;
 }
 
 @media (min-width: 768px) {
   .faqbox {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 10vw;
   }
 }
 
@@ -1031,8 +1031,7 @@ h3 {
 
 @media (min-width: 768px) {
   .a-menu {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    width: 70vw;
   }
 }
 
@@ -1055,13 +1054,195 @@ h3 {
 }
 
 @media (min-width: 768px) {
-  .b-all .illust {
-    padding: 0%;
-    margin-bottom: 0%;
+  .b-last {
+    padding-left: 20vw;
   }
-  .b-all .illust img {
-    width: 20vw;
-    height: auto;
+}
+
+/* アニメーションスタイル */
+/* ---------------------------- */
+/* アニメーション前 */
+.u-fade-type-up {
+  -webkit-transform: translateY(80px);
+          transform: translateY(80px);
+  opacity: 0;
+}
+
+/* トリガー発火でis-activeを付与 */
+.u-fade-type-up.is-active {
+  -webkit-transition: .6s;
+  transition: .6s;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  opacity: 1;
+}
+
+.is-active .u-fade-type-up:nth-child(2) {
+  -webkit-transition-delay: .4s;
+          transition-delay: .4s;
+}
+
+.is-active .u-fade-type-up:nth-child(3) {
+  -webkit-transition-delay: .8s;
+          transition-delay: .8s;
+}
+
+.is-active .u-fade-type-up:nth-child(4) {
+  -webkit-transition-delay: 1.2s;
+          transition-delay: 1.2s;
+}
+
+.is-active .u-fade-type-up:nth-child(5) {
+  -webkit-transition-delay: 1.6s;
+          transition-delay: 1.6s;
+}
+
+.is-active .u-fade-type-up:nth-child(6) {
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
+@media screen and (min-width: 768px) {
+  .multiple-item {
+    width: 32%;
   }
+  .multiple-item:nth-child(-n+3) {
+    margin-top: 0;
+  }
+}
+
+/*全共通*/
+.bgextend {
+  -webkit-animation-name: bgextendAnimeBase;
+          animation-name: bgextendAnimeBase;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  position: relative;
+  overflow: hidden;
+  /*　はみ出た色要素を隠す　*/
+  opacity: 0;
+}
+
+@-webkit-keyframes bgextendAnimeBase {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bgextendAnimeBase {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*中の要素*/
+.bgappear {
+  -webkit-animation-name: bgextendAnimeSecond;
+          animation-name: bgextendAnimeSecond;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+@-webkit-keyframes bgextendAnimeSecond {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bgextendAnimeSecond {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*左から右*/
+.bgLRextend::before {
+  -webkit-animation-name: bgLRextendAnime;
+          animation-name: bgLRextendAnime;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: chocolate;
+  /*伸びる背景色の設定*/
+}
+
+@-webkit-keyframes bgLRextendAnime {
+  0% {
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  50% {
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  50.001% {
+    -webkit-transform-origin: right;
+            transform-origin: right;
+  }
+  100% {
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+}
+
+@keyframes bgLRextendAnime {
+  0% {
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  50% {
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+  50.001% {
+    -webkit-transform-origin: right;
+            transform-origin: right;
+  }
+  100% {
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+}
+
+/* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+.bgappearTrigger,
+.bgLRextendTrigger {
+  opacity: 0;
 }
 /*# sourceMappingURL=style.css.map */
