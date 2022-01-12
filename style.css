@@ -1,3 +1,11 @@
+/*
+Theme Name: kanbantu-han
+Theme URI: https://kanban-store.com/
+Description: kanbantu-han新しいテーマ
+Author: kobayashi
+Author URI: https://kanban-store.com/
+Version: 1.0
+*/
 @charset "UTF-8";
 * {
   padding: 0;
@@ -64,7 +72,7 @@ h1 {
   top: 50%;
   left: 50%;
   -webkit-transform: translateY(-50%) translateX(-50%);
-          transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
   transform: translateY(-50%) translateX(-50%);
 }
 
@@ -95,7 +103,7 @@ h1 {
 }
 
 footer {
-  background-color: #DEDDD9;
+  background-color: #deddd9;
   color: white;
   z-index: 90;
   position: relative;
@@ -116,15 +124,15 @@ footer {
   padding-top: 2rem;
   text-align: center;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .fbar .item {
   text-decoration: none;
   color: aliceblue;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-left: 3rem;
   margin-right: 3rem;
 }
@@ -168,74 +176,74 @@ footer {
     margin-bottom: 40px;
     height: 40px;
     -webkit-animation: fluffy1 3s ease infinite;
-            animation: fluffy1 3s ease infinite;
+    animation: fluffy1 3s ease infinite;
   }
   @-webkit-keyframes fluffy1 {
     0% {
       -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
     }
     5% {
       -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
     }
     10% {
       -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
     }
     20% {
       -webkit-transform: translateY(-15px);
-              transform: translateY(-15px);
+      transform: translateY(-15px);
     }
     25% {
       -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
     }
     30% {
       -webkit-transform: translateY(-15px);
-              transform: translateY(-15px);
+      transform: translateY(-15px);
     }
     50% {
       -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
     }
     100% {
       -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
     }
   }
   @keyframes fluffy1 {
     0% {
       -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
     }
     5% {
       -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
     }
     10% {
       -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
     }
     20% {
       -webkit-transform: translateY(-15px);
-              transform: translateY(-15px);
+      transform: translateY(-15px);
     }
     25% {
       -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
     }
     30% {
       -webkit-transform: translateY(-15px);
-              transform: translateY(-15px);
+      transform: translateY(-15px);
     }
     50% {
       -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
     }
     100% {
       -webkit-transform: translateY(0);
-              transform: translateY(0);
+      transform: translateY(0);
     }
   }
   .contact1 a {
@@ -352,7 +360,7 @@ footer {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   color: white;
   /*文字色*/
   background-color: rgba(128, 128, 128, 0.568);
@@ -383,12 +391,12 @@ footer {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .smallblok {
     -webkit-box-flex: 1;
-        -ms-flex: 1 0 300px;
-            flex: 1 0 300px;
+    -ms-flex: 1 0 300px;
+    flex: 1 0 300px;
     margin: 1rem;
   }
   .ptitle:hover {
@@ -409,7 +417,7 @@ footer {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   color: white;
   /*文字色*/
   background-color: rgba(128, 128, 128, 0.568);
@@ -432,7 +440,7 @@ footer {
   margin-bottom: 3rem;
   padding: 1rem;
   -webkit-box-shadow: 8px 5px 20px gray;
-          box-shadow: 8px 5px 20px gray;
+  box-shadow: 8px 5px 20px gray;
   text-align: center;
 }
 
@@ -449,10 +457,10 @@ footer {
     display: flex;
     width: 100%;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
   .sblok {
     margin: 1rem;
@@ -465,11 +473,11 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 0 auto;
   padding: 1em 2em;
   color: white;
@@ -488,7 +496,7 @@ footer {
   border-top: 3px solid white;
   border-right: 3px solid white;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .button03 a:hover {
@@ -507,7 +515,7 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
 }
@@ -530,7 +538,7 @@ footer {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
   }
@@ -545,9 +553,9 @@ footer {
     padding-bottom: 0.4rem;
   }
 }
-
+/*TOP背景*/
 .top {
-  background: url(../image/top.jpg);
+  background: url("/image/top.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: contain;
@@ -579,7 +587,7 @@ footer {
 
 @media screen and (max-width: 590px) {
   .top {
-    background: url(../image/mtop.jpg);
+    background: url("/image/top.jpg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: contain;
@@ -599,11 +607,11 @@ footer {
 
 .button02 a {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 1.5rem;
   padding: 1em 2em;
   width: 2rem;
@@ -640,11 +648,11 @@ footer {
   height: 60px;
   width: 60px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   z-index: 100;
   background-color: #bbdddd;
 }
@@ -679,11 +687,11 @@ footer {
   height: 60px;
   width: 60px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   z-index: 90;
   background-color: #bbdddd;
   border-radius: 50%;
@@ -717,13 +725,13 @@ footer {
 #menu-btn-check:checked ~ .menu-btn span::before {
   bottom: 0;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 #menu-btn-check:checked ~ .menu-btn span::after {
   top: 0;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 #menu-btn-check {
@@ -754,7 +762,7 @@ footer {
   width: 100%;
   font-size: 15px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: black;
   text-decoration: none;
   padding: 9px 15px 10px 0;
@@ -768,7 +776,7 @@ footer {
   border-top: solid 2px #ffffff;
   border-right: solid 2px #ffffff;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   position: absolute;
   right: 11px;
   top: 16px;
@@ -815,8 +823,8 @@ footer {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
+    -ms-flex-pack: end;
+    justify-content: end;
     margin-right: 2rem;
   }
   .pc-menu-content .pc-menu .pc-menulist {
@@ -874,8 +882,8 @@ h3 {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
   .seat-box img {
     width: 45vw;
@@ -883,8 +891,8 @@ h3 {
   .seat-box:nth-child(even) {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
   }
   .seat-text {
     font-size: 1rem;
@@ -930,7 +938,7 @@ h3 {
   color: black;
   border: solid 1px black;
   -webkit-box-shadow: 10px 5px 5px darkgray;
-          box-shadow: 10px 5px 5px darkgray;
+  box-shadow: 10px 5px 5px darkgray;
   padding: 0.5rem;
   margin: 0.5rem 1rem 0.5rem 1rem;
   width: 70vw;
@@ -967,10 +975,10 @@ h3 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 @media (min-width: 768px) {
@@ -996,7 +1004,7 @@ h3 {
 .acd-label:after {
   background: sienna;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   content: "＋";
   display: block;
   height: auto;
@@ -1063,49 +1071,49 @@ h3 {
 /* アニメーション前 */
 .u-fade-type-up {
   -webkit-transform: translateY(80px);
-          transform: translateY(80px);
+  transform: translateY(80px);
   opacity: 0;
 }
 
 /* トリガー発火でis-activeを付与 */
 .u-fade-type-up.is-active {
-  -webkit-transition: .6s;
-  transition: .6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
   opacity: 1;
 }
 
 .is-active .u-fade-type-up:nth-child(2) {
-  -webkit-transition-delay: .4s;
-          transition-delay: .4s;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
 }
 
 .is-active .u-fade-type-up:nth-child(3) {
-  -webkit-transition-delay: .8s;
-          transition-delay: .8s;
+  -webkit-transition-delay: 0.8s;
+  transition-delay: 0.8s;
 }
 
 .is-active .u-fade-type-up:nth-child(4) {
   -webkit-transition-delay: 1.2s;
-          transition-delay: 1.2s;
+  transition-delay: 1.2s;
 }
 
 .is-active .u-fade-type-up:nth-child(5) {
   -webkit-transition-delay: 1.6s;
-          transition-delay: 1.6s;
+  transition-delay: 1.6s;
 }
 
 .is-active .u-fade-type-up:nth-child(6) {
   -webkit-transition-delay: 2s;
-          transition-delay: 2s;
+  transition-delay: 2s;
 }
 
 @media screen and (min-width: 768px) {
   .multiple-item {
     width: 32%;
   }
-  .multiple-item:nth-child(-n+3) {
+  .multiple-item:nth-child(-n + 3) {
     margin-top: 0;
   }
 }
@@ -1113,11 +1121,11 @@ h3 {
 /*全共通*/
 .bgextend {
   -webkit-animation-name: bgextendAnimeBase;
-          animation-name: bgextendAnimeBase;
+  animation-name: bgextendAnimeBase;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
   position: relative;
   overflow: hidden;
   /*　はみ出た色要素を隠す　*/
@@ -1145,13 +1153,13 @@ h3 {
 /*中の要素*/
 .bgappear {
   -webkit-animation-name: bgextendAnimeSecond;
-          animation-name: bgextendAnimeSecond;
+  animation-name: bgextendAnimeSecond;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-delay: 0.6s;
-          animation-delay: 0.6s;
+  animation-delay: 0.6s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
   opacity: 0;
 }
 
@@ -1176,11 +1184,11 @@ h3 {
 /*左から右*/
 .bgLRextend::before {
   -webkit-animation-name: bgLRextendAnime;
-          animation-name: bgLRextendAnime;
+  animation-name: bgLRextendAnime;
   -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
   content: "";
   position: absolute;
   width: 100%;
@@ -1192,50 +1200,50 @@ h3 {
 @-webkit-keyframes bgLRextendAnime {
   0% {
     -webkit-transform-origin: left;
-            transform-origin: left;
+    transform-origin: left;
     -webkit-transform: scaleX(0);
-            transform: scaleX(0);
+    transform: scaleX(0);
   }
   50% {
     -webkit-transform-origin: left;
-            transform-origin: left;
+    transform-origin: left;
     -webkit-transform: scaleX(1);
-            transform: scaleX(1);
+    transform: scaleX(1);
   }
   50.001% {
     -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
   }
   100% {
     -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
     -webkit-transform: scaleX(0);
-            transform: scaleX(0);
+    transform: scaleX(0);
   }
 }
 
 @keyframes bgLRextendAnime {
   0% {
     -webkit-transform-origin: left;
-            transform-origin: left;
+    transform-origin: left;
     -webkit-transform: scaleX(0);
-            transform: scaleX(0);
+    transform: scaleX(0);
   }
   50% {
     -webkit-transform-origin: left;
-            transform-origin: left;
+    transform-origin: left;
     -webkit-transform: scaleX(1);
-            transform: scaleX(1);
+    transform: scaleX(1);
   }
   50.001% {
     -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
   }
   100% {
     -webkit-transform-origin: right;
-            transform-origin: right;
+    transform-origin: right;
     -webkit-transform: scaleX(0);
-            transform: scaleX(0);
+    transform: scaleX(0);
   }
 }
 
@@ -1244,4 +1252,12 @@ h3 {
 .bgLRextendTrigger {
   opacity: 0;
 }
+.blogcontent {
+  text-align: center;
+}
+.post-item {
+  width: 60vw;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */

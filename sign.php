@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-      rel="stylesheet"
-    />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap");
-    </style>
-  </head>
+
   <body>
     <main>
       <div class="s-top">
-        <div class="top01"><img src="/image/topimg-02.png" alt="" /></div>
+        <div class="top01"><img src="<?php echo get_template_directory_uri(); ?>/image/topimg-02.png" alt="トップイメージ" /></div>
         <h1>看板の種類</h1>
       </div>
       <div class="sign">
@@ -29,7 +14,7 @@
         <h2><span class="bgextend bgLRextendTrigger"><span class="bgappearTrigger">取扱い看板一覧</span></span></h2>
         <div class="sbox">
           <div class="sblok u-fade-type-up js-scroll-trigger">
-            <img src="./image/pureto.png" alt="プレート看板" />
+            <img src="<?php echo get_template_directory_uri(); ?>/image/pureto.png" alt="プレート看板" />
             <div class="stitle">プレート看板</div>
             <div class="text">
               アルミ複合板やアクリル板、塩ビ板、ステンレス板などの板（プレート）
@@ -41,7 +26,7 @@
           </div>
 
           <div class="sblok u-fade-type-up js-scroll-trigger">
-            <img src="/image/stand.png" alt="スタンド看板" />
+            <img src="<?php echo get_template_directory_uri(); ?>/image/stand.png" alt="スタンド看板" />
             <div class="stitle">立て看板</div>
             <div class="text">
               A型スタンド看板、電飾看板など、豊富な種類からお選びできます。気軽に置くことができ、店内・店外問わず、お客様へのアピールができます。
@@ -51,7 +36,7 @@
             </div>
           </div>
           <div class="sblok u-fade-type-up js-scroll-trigger">
-            <img src="/image/taremaku.png" alt="店舗幕・垂れ幕" />
+            <img src="<?php echo get_template_directory_uri(); ?>/image/taremaku.png" alt="店舗幕・垂れ幕" />
             <div class="stitle">店舗幕・垂幕</div>
             <div class="text">
               遠くからでも認識できる懸垂幕や、店頭に飾ることのできる垂れ幕タペストリーなど。登りや、フラッグの素材としてお使いできます。
@@ -61,7 +46,7 @@
             </div>
           </div>
           <div class="sblok u-fade-type-up js-scroll-trigger">
-            <img src="/image/film.png" alt="窓フィルム" />
+            <img src="<?php echo get_template_directory_uri(); ?>/image/film.png" alt="窓フィルム" />
             <div class="stitle">窓フィルム</div>
             <div class="text">
               曇り止めフィルム、防犯フィルム、遮熱フィルムなど、既存の窓ガラスに取り付けが可能です。ご要望に沿ったご提案をいたします。
@@ -71,7 +56,7 @@
             </div>
           </div>
           <div class="sblok u-fade-type-up js-scroll-trigger">
-            <img src="/image/closs.png" alt="クロス" />
+            <img src="<?php echo get_template_directory_uri(); ?>/image/closs.png" alt="クロス" />
             <div class="stitle">クロス</div>
             <div class="text">
               サンプルをご覧になりながら、イメージに合うクロスをお選びいただけます。オリジナル壁紙、クロスの制作も可能です。サイズや、種類などもお気軽にご相談ください。
@@ -81,7 +66,7 @@
             </div>
           </div>
           <div class="sblok u-fade-type-up js-scroll-trigger">
-            <img src="/image/tenpo.png" alt="壁面看板" />
+            <img src="<?php echo get_template_directory_uri(); ?>/image/tenpo.png" alt="壁面看板" />
             <div class="stitle">壁面看板</div>
             <div class="text">
               入口の上の一番目立つところに、屋号などをいれる、代表的な看板です。取り付け位置や、デザインなどもご希望を伺い、作り上げていきます。
@@ -91,7 +76,7 @@
             </div>
           </div>
           <div class="sblok u-fade-type-up js-scroll-trigger">
-            <img src="/image/sode.png" alt="袖看板" />
+            <img src="<?php echo get_template_directory_uri(); ?>/image/sode.png" alt="袖看板" />
             <div class="stitle">袖看板</div>
             <div class="text">
               袖看板・突き出し看板は、自動車や歩行者に効果的です。お店の正面まで行かなくても移動している間に、店名を知らせることができ、集客UPに繋がります。
@@ -101,7 +86,7 @@
             </div>
           </div>
           <div class="sblok u-fade-type-up js-scroll-trigger">
-            <img src="/image/nodate.png" alt="野立看板" />
+            <img src="<?php echo get_template_directory_uri(); ?>/image/nodate.png" alt="野立看板" />
             <div class="stitle">野立看板</div>
             <div class="text">
               歩行者・ドライバーの視認効果抜群！
@@ -112,7 +97,7 @@
             </div>
           </div>
           <div class="sblok u-fade-type-up js-scroll-trigger">
-            <img src="/image/porl.png" alt="ポール看板" />
+            <img src="<?php echo get_template_directory_uri(); ?>/image/porl.png" alt="ポール看板" />
             <div class="stitle">ポール看板</div>
             <div class="text">
               ポール看板とは、場所をとらず高く
@@ -123,7 +108,7 @@
             </div>
           </div>
           <div class="sblok u-fade-type-up js-scroll-trigger">
-            <img src="/image/kirimoji.png" alt="文字サイン" />
+            <img src="<?php echo get_template_directory_uri(); ?>/image/kirimoji.png" alt="文字サイン" />
             <div class="stitle">文字サイン</div>
             <div class="text">
               LEDチャンネル文字や、カルプ切り文字などイメージに合わせたご提案が可能です。お店やオフィスの雰囲気を壊さず、シンプルながらも存在感があるのが特徴です。
@@ -133,7 +118,7 @@
             </div>
           </div>
           <div class="sblok u-fade-type-up js-scroll-trigger">
-            <img src="/image/window.png" alt="ウインドウサイン" />
+            <img src="<?php echo get_template_directory_uri(); ?>/image/window.png" alt="ウインドウサイン" />
             <div class="stitle">ウインドウサイン</div>
             <div class="text">
               窓や自動ドアなどガラス面も看板・広告ツールとして有効に活用できます。半透明のものや、装飾性のあるもの、目隠し効果のあるものなど、ご希望に合わせてお作りします。
@@ -155,22 +140,22 @@
           用途に合わせたシートのご提案もできますのでお気軽にお問い合わせくださいませ。
         </div>
         <div class="ink u-fade-type-up js-scroll-trigger">
-          <img src="/image/ff.png" alt="FFシート" />
-          <img src="/image/enbi.png" alt="FFシート" />
-          <img src="/image/gousei.png" alt="FFシート" />
-          <img src="/image/taporin.png" alt="FFシート" />
-          <img src="/image/nyuhan.png" alt="FFシート" />
-          <img src="/image/toumei.png" alt="FFシート" />
-          <img src="/image/magnet.png" alt="FFシート" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/ff.png" alt="FFシート" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/enbi.png" alt="FFシート" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/gousei.png" alt="FFシート" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/taporin.png" alt="FFシート" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/nyuhan.png" alt="FFシート" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/toumei.png" alt="FFシート" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/magnet.png" alt="FFシート" />
           <div class="spase"></div>
-          <img src="/image/jyosei.png" alt="FFシート" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/jyosei.png" alt="FFシート" />
         </div>
         <div class="button02">
           <a href="">contact</a>
         </div>
         <h3>FFシート</h3>
         <div class="seat-box u-fade-type-up js-scroll-trigger">
-          <img src="/image/ff-s.png" alt="FFシート" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/ff-s.png" alt="FFシート" />
           <div class="s-box">
             <div class="seat-title">高所や屋外大型看板に簡単取付</div>
             <div class="seat-text">
@@ -190,7 +175,7 @@
         </div>
         <h3>中長期用 塩ビシート</h3>
         <div class="seat-box u-fade-type-up js-scroll-trigger">
-          <img src="/image/enbi-s.png" alt="塩ビシート" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/enbi-s.png" alt="塩ビシート" />
           <div class="s-box">
             <div class="seat-title">安全で汚れない取付簡単</div>
             <div class="seat-text">
@@ -208,7 +193,7 @@
         </div>
         <h3>ポスター用“合成紙”</h3>
         <div class="seat-box u-fade-type-up js-scroll-trigger">
-          <img src="/image/gousei-s.png" alt="合成紙" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/gousei-s.png" alt="合成紙" />
           <div class="s-box">
             <div class="seat-title">光沢感なく屋内で見やすい</div>
             <div class="seat-text">
@@ -225,7 +210,7 @@
         </div>
         <h3>ターポリン印刷</h3>
         <div class="seat-box u-fade-type-up js-scroll-trigger">
-          <img src="/image/taporin-s.png" alt="ターポリン" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/taporin-s.png" alt="ターポリン" />
           <div class="s-box">
             <div class="seat-title">軽量安価で耐久性抜群</div>
             <div class="seat-text">
@@ -244,7 +229,7 @@
         </div>
         <h3>電飾用乳半シート(電飾塩ビ)</h3>
         <div class="seat-box u-fade-type-up js-scroll-trigger">
-          <img src="/image/nyuhan-s.png" alt="電飾用乳半シート(電飾塩ビ)" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/nyuhan-s.png" alt="電飾用乳半シート(電飾塩ビ)" />
           <div class="s-box">
             <div class="seat-title">光の透過性がよく夜間は綺麗に</div>
             <div class="seat-text">
@@ -261,7 +246,7 @@
         </div>
         <h3>ガラス面内貼りに ‶透明塩ビシート”</h3>
         <div class="seat-box u-fade-type-up js-scroll-trigger">
-          <img src="/image/toumei-s.png" alt="透明塩ビシート" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/toumei-s.png" alt="透明塩ビシート" />
           <div class="s-box">
             <div class="seat-title">光の透過性がよく夜間は綺麗に</div>
             <div class="seat-text">
@@ -278,7 +263,7 @@
         </div>
         <h3>マグネットシート</h3>
         <div class="seat-box u-fade-type-up js-scroll-trigger">
-          <img src="/image/magu-s.png" alt="マグネットシート" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/magu-s.png" alt="マグネットシート" />
           <div class="s-box">
             <div class="seat-title">光の透過性がよく夜間は綺麗に</div>
             <div class="seat-text">
@@ -302,11 +287,12 @@
             価格は、形状などにより変動がございます。<br />
             その他、ご不明点や、お見積もりなどはお気軽にお問い合わせくださいませ。
           </div>
-          <img src="/image/pricegirl.png" alt="お見積もり" />
+          <img src="<?php echo get_template_directory_uri(); ?>/image/pricegirl.png" alt="お見積もり" />
         </div>
       </div>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/js/anime.js"></script>
+    <!-- Theme JavaScript -->
+<script src="<?php echo get_template_directory_uri(); ?>/js/anime.js"></script>
   </body>
 </html>

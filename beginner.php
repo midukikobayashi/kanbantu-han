@@ -1,24 +1,8 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-      rel="stylesheet"
-    />
 
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap");
-    </style>
-  </head>
   <body>
     <main>
       <div class="s-top">
-        <div class="top01"><img src="/image/topimg-02.png" alt="" /></div>
+        <div class="top01"><img src="<?php echo get_template_directory_uri(); ?>/image/topimg-02.png" alt="" /></div>
         <h1>初めての方へ</h1>
       </div>
       <div class="b-all">
@@ -29,7 +13,7 @@
         <div class="service">
           <div class="sbox">
             <div class="sblok u-fade-type-up js-scroll-trigger">
-              <img src="./image/teiann.jpg" alt="ご提案" />
+              <img src="<?php echo get_template_directory_uri(); ?>/image/teiann.jpg" alt="ご提案" />
               <div class="stitle">ヒアリング・ご提案</div>
               <div class="text">
                 看板のプロが、親切丁寧にヒアリングいたします。看板の知識がなくでも大丈夫！「こうしたい」というご希望に沿って、ぴったりの看板をご提案します。イメージにあったデザインもご提案できますので、お気軽にご相談くださいませ。
@@ -37,14 +21,14 @@
             </div>
 
             <div class="sblok u-fade-type-up js-scroll-trigger">
-              <img src="./image/houfu.jpg" alt="豊富な種類" />
+              <img src="<?php echo get_template_directory_uri(); ?>/image/houfu.jpg" alt="豊富な種類" />
               <div class="stitle">豊富な種類</div>
               <div class="text">
                 案内板、野立看板、切り文字など…看板つ〜はんには豊富な種類がございます。取り付け場所や、イメージにぴったりの看板が見つかるはず。当HPにない看板をご希望の場合は、お気軽にお問い合わせくださいませ。
               </div>
             </div>
             <div class="sblok u-fade-type-up js-scroll-trigger">
-              <img src="./image/sekou.jpg" alt="施工" />
+              <img src="<?php echo get_template_directory_uri(); ?>/image/sekou.jpg" alt="施工" />
               <div class="stitle">制作・施工</div>
               <div class="text">
                 当社は制作だけでなく、施工まで一括で行なっております。お客様の「こんな看板が欲しい！」というイメージの世界観をそのままに実現できるよう、当社の制作・デザイン・施工のスタッフが一丸となって取り組んでおります。
@@ -322,7 +306,7 @@
           
         </div>
         <div class="b-last">
-        <div class="illust"><img src="/image/pika.png" alt="" /></div>
+        <div class="illust"><img src="<?php echo get_template_directory_uri(); ?>/image/pika.png" alt="" /></div>
         <div class="ctext">その他、ご不明点などございましたらお気軽にお問い合わせくださいませ。</div>
         <div class="button02">
           <a href="">contact</a>
@@ -333,6 +317,7 @@
 
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/js/anime.js"></script>
+    <!-- Theme JavaScript -->
+<script src="<?php echo get_template_directory_uri(); ?>/js/anime.js"></script>
   </body>
-</html>
+
